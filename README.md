@@ -8,13 +8,14 @@
 	
 涉及了官方 guide 大部分的用法。
 
-![pic4](https://github.com/AU3904/AndroidDatabindingDemo/tree/master/raw/demo_menu.png) 
+![pic4](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/menu.png) 
 
-![pic1](https://github.com/AU3904/AndroidDatabindingDemo/tree/master/raw/demo_activity.png) 
 
-![pic2](https://github.com/AU3904/AndroidDatabindingDemo/tree/master/raw/demo_fragment.png) 
+![pic1](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/demo_activity.png) 
 
-![pic3](https://github.com/AU3904/AndroidDatabindingDemo/tree/master/raw/demo_recyclerview.png) 
+![pic2](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/demo_fragment.png) 
+
+![pic3](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/demo_recyclerview.png) 
 
 
 
