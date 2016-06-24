@@ -8,7 +8,7 @@
 	
 涉及了官方 guide 大部分的用法。
 
-![pic4](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/menu.png) 
+![pic4](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/menu.png =200*) 
 
 
 ![pic1](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/demo_activity.png) 
