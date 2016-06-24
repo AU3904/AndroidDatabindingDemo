@@ -10,7 +10,6 @@ import com.squareup.picasso.Picasso;
 import customview.xx.com.databindingdemo.R;
 import customview.xx.com.databindingdemo.databinding.MovieListRowBinding;
 import customview.xx.com.databindingdemo.model.Movie;
-import customview.xx.com.databindingdemo.model.MyHandlers;
 
 /**
  * Created by aaron_lu on 6/21/16.

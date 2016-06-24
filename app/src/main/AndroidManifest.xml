@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="test_databinding_activity"
+                    android:host="databinding_activity"
                     android:scheme="databinding" />
             </intent-filter>
 

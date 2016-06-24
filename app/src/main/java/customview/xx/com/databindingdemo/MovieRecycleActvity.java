@@ -57,6 +57,20 @@ public class MovieRecycleActvity extends Activity {
             }
         });
 
+        findViewById(R.id.btn_update3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Movie movie = (Movie) mDataList.get(0);
+                        movie.setYear("00000000000");
+                    }
+                }).start();
+            }
+        });
+
+
         mAdapter = new RecyclerViewAdapter(this, mDataList);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);

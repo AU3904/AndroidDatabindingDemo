@@ -40,11 +40,11 @@ public class MainActivity extends Activity {
                 OperMenu operMenu = operMenuArrayList.get(position);
                 switch (operMenu.id) {
                     case 0:
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("databinding://test_databinding_activity"));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("databinding://databinding_activity"));
                         startActivity(intent);
                         break;
                     case 7:
-                        Intent inten1t = new Intent(Intent.ACTION_VIEW, Uri.parse("databinding://test_activity"));
+                        Intent inten1t = new Intent(Intent.ACTION_VIEW, Uri.parse("databinding://recyclerview_databinding_activity"));
                         startActivity(inten1t);
                         break;
                     case 3:
@@ -64,7 +64,7 @@ public class MainActivity extends Activity {
                         startActivity(intent6);
                         break;
                     case 6:
-                        Intent intent7 = new Intent(Intent.ACTION_VIEW, Uri.parse("databinding://list_databinding_activity"));
+                        Intent intent7 = new Intent(Intent.ACTION_VIEW, Uri.parse("databinding://databinding_activity"));
                         startActivity(intent7);
                         break;
                     default:
@@ -81,12 +81,11 @@ public class MainActivity extends Activity {
         operMenuArrayList.add(new OperMenu("RecycleView item & Observable Data", 4));
         operMenuArrayList.add(new OperMenu("View with IDs", 5));
         operMenuArrayList.add(new OperMenu("Custom Setters", 6));
-        operMenuArrayList.add(new OperMenu("任意线程更新UI", 6));//不推荐在listview or recyclerView中使用
+        operMenuArrayList.add(new OperMenu("任意线程更新UI", 7));//不推荐在listview or recyclerView中使用
 
-        operMenuArrayList.add(new OperMenu("自定义", 7));
+        operMenuArrayList.add(new OperMenu("自定义", 100));
     }
 
-    
 
     class MenuAdapter extends BaseAdapter {
 

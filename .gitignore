@@ -6,3 +6,8 @@
 .DS_Store
 /build
 /captures
+.DS_Store
+.idea
+localhost/
+obj/
+_site/

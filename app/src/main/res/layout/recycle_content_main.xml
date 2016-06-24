@@ -18,11 +18,19 @@
         android:padding="15dp"
         android:text="更新第二行数据，酒店图片" />
 
+    <Button
+        android:id="@+id/btn_update3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_update2"
+        android:padding="15dp"
+        android:text="子线程直接更新UI" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_update2"
+        android:layout_below="@id/btn_update3"
         android:scrollbars="vertical" />
 
 </RelativeLayout>
