@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="movie"
+            type="customview.xx.com.databindingdemo.model.Movie" />
+
+        <variable
+            name="viewHolder"
+            type="customview.xx.com.databindingdemo.RecyclerViewAdapter.CustomViewHolder" />
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:onClick="@{viewHolder.onClick}"
+            android:text="@{movie.title}"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:onClick="@{viewHolder.onClick}"
+            android:text="@{movie.genre}" />
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="@{viewHolder.onClick}"
+            android:text="@{movie.year}"
+            android:textColor="@android:color/holo_red_dark" />
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/genre"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_light" />
+    </RelativeLayout>
+
+
+</layout>
