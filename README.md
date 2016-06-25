@@ -8,13 +8,18 @@
 	
 涉及了官方 guide 大部分的用法。
 
-![pic4](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/menu.png =270x480)
+![pic4](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/menu.png width="270" height="480")
 
 ![pic1](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/demo_activity.png =270x480) 
 
 ![pic2](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/demo_fragment.png =270x480) 
 
 ![pic3](https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/demo_recyclerview.png =270x480) 
+
+ <img src="https://github.com/AU3904/AndroidDatabindingDemo/blob/master/raw/menu.png" width = "270" height = "480" alt="图片名称" align=center />
+
+
+
 
 
 
